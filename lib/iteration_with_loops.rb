@@ -12,9 +12,9 @@ while row_index < src.count do
     element_index += 1
     end
   row_index += 1
-words.to_s.join(" ")
 
 
-end
+endwords.to_s.join(" ")
+
 end
 join_nested_strings([9, "This", "For", 3])
