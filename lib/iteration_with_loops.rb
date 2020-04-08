@@ -14,7 +14,6 @@ while row_index < src.count do
   row_index += 1
 
 
-endwords.to_s.join(" ")
-
 end
-join_nested_strings([9, "This", "For", 3])
+words.to_s.join(" ")
+end
