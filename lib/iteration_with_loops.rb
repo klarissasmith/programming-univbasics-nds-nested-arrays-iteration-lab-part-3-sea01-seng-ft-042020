@@ -15,5 +15,5 @@ while row_index < src.count do
 
 
 end
-words.to_s.join(" ")
+words
 end
