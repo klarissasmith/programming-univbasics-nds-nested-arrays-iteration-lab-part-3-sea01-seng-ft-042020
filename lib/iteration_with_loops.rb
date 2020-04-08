@@ -8,8 +8,8 @@ while row_index < src.count do
     words = []
     if src[row_index][element_index] == String
       words << src[row_index][element_index]
-      
-    endelement_index += 1
+    end
+    element_index += 1
     row_index += 1
   end
 words.to_s.join(" ")
