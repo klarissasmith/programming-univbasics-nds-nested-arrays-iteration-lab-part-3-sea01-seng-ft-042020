@@ -10,8 +10,8 @@ while row_index < src.count do
       words << src[row_index][element_index]
     end
     element_index += 1
-    row_index += 1
-  end
+    
+  endrow_index += 1
 words.to_s.join(" ")
 
 
